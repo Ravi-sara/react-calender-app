@@ -18,5 +18,17 @@ User Module
 
 
 
+To sign up for the Calendar Application, follow these steps:
+
+1. In sign-up page.
+2. Enter the following details:(For example)
+    - Name: John Doe
+    - Email-id: johndoe@example.com
+    - Role: Admin/User (select one)
+3. Click on the "Sign Up" button to sign up.
+
+ Note: Replace John Doe and johndoe@example.com with any name and email address.
+
+
 
 live project url:https://ravi-sara.github.io/react-calender-app/
