@@ -1,0 +1,76 @@
+.connect-container{
+    width: 100%;
+    height: 100vh;
+   background: url(/src/assets/images/background-7.jpeg);
+   
+   background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.connect-container h3{
+    margin-top: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: rgb(177, 172, 172);
+    font-size: 1.8em;
+}
+.log-container{
+    display: flex;
+    flex-direction: row;
+}
+.log-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+    margin-left: 100px; 
+}
+
+.log-input, .log-text{
+    width: 450px;
+    height: 20px;
+    padding: 10px;
+    border-style: none;
+    outline: none;
+    background:linear-gradient(to right,rgb(188, 186, 186),rgb(104, 103, 103)) ;
+    box-shadow: 3px 3px 5px rgb(123, 124, 124);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.log-btn{
+    width: 130px;
+    height: 30px;
+    margin-left: 150px;
+    border-radius: 7px;
+    border-style: none;
+    background-color: rgb(116, 116, 116);
+    font-size: 1.13em;
+    font-weight: 500;
+    box-shadow: 3px 3px 5px rgb(121, 122, 122);
+    transition: all 0.5s;
+}
+.log-btn:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.log-ulist{
+    margin-left: 150px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.log-ulist li{
+    list-style-type: none;
+    padding: 10px;
+    background:linear-gradient(to right,rgb(188, 186, 186),rgb(104, 103, 103)) ;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(117, 117, 117); 
+    transition: all 0.5s;
+    font-weight: 500;
+  font-size: 1.13em;
+}
+.log-ulist li:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
